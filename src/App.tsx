@@ -1,10 +1,17 @@
-import "./styles.css";
+import { BrowserRouter as Router } from "react-router-dom";
+import AppRoutes from "./Routes/AppRoutes";
+import "bootstrap/dist/css/bootstrap.min.css";
 
-export default function App() {
+function App() {
   return (
-    <div className="App">
-      <h1>Hello CodeSandbox</h1>
-      <h2>Start editing to see some magic happen!</h2>
-    </div>
+    <Router>
+      <AppRoutes />
+    </Router>
   );
 }
+
+export default App;
+
+// Remove the second default export
+// export default Home;
+
