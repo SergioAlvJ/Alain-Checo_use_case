@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/SergioAlvJ/Alain-Checo_use_case/static/css/main.f24d4bbb.css",
+    "main.js": "/SergioAlvJ/Alain-Checo_use_case/static/js/main.596a2cc5.js",
+    "index.html": "/SergioAlvJ/Alain-Checo_use_case/index.html",
+    "main.f24d4bbb.css.map": "/SergioAlvJ/Alain-Checo_use_case/static/css/main.f24d4bbb.css.map",
+    "main.596a2cc5.js.map": "/SergioAlvJ/Alain-Checo_use_case/static/js/main.596a2cc5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f24d4bbb.css",
+    "static/js/main.596a2cc5.js"
+  ]
+}
