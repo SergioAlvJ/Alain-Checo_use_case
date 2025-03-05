@@ -8,14 +8,14 @@ body {
     cursor: pointer;
     height: 350px;
     width: 350px;
-    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out, filter 0.3s ease;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
     border-radius: 15px;
     overflow: hidden;
     border: none; /* Asegura que no haya borde visible */
 }
 
 .project-card img {
-    height: 250px;
+    height: 200px;
     width: 100%;
     object-fit: cover; /* Ajusta la imagen sin deformarla */
     border-top-left-radius: 12px;

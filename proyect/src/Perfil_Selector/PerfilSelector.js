@@ -1,7 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./Perfil.css";
+import "./Perfil.css"; // Asegúrate de que este archivo exista
 
 const PerfilSelector = () => {
   const navigate = useNavigate();
@@ -33,4 +33,3 @@ const PerfilSelector = () => {
 };
 
 export default PerfilSelector;
-//               <p className="text-gray-400">REST, GraphQL</p>
