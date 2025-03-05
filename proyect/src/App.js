@@ -1,13 +1,19 @@
 import React from "react";
-import PerfilSelector from "./Perfil_Selector/PerfilSelector"; // Asegúrate de que la ruta sea correcta
-import "bootstrap/dist/css/bootstrap.min.css";
-import "./App.css";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import PerfilSelector from "./Perfil_Selector/PerfilSelector";
+import ChecoProfile from './Perfil_Selector/Checo/app'; 
+import AlainProfile from './Perfil_Selector/Alain/app'; 
+
 
 function App() {
   return (
-    <div className="App">
-      <PerfilSelector />
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<PerfilSelector />} />
+        <Route path="/checo" element={<ChecoProfile />} />
+        <Route path="/alain" element={<AlainProfile />} />
+      </Routes>
+    </Router>
   );
 }
 

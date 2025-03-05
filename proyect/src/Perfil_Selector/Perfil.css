@@ -1,0 +1,62 @@
+body {
+    background: linear-gradient(135deg, #2c3e50, #ff4b5c);
+    height: 100vh;
+    margin: 0;
+}
+
+.project-card {
+    cursor: pointer;
+    height: 350px;
+    width: 350px;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out, filter 0.3s ease;
+    border-radius: 15px;
+    overflow: hidden;
+    border: none; /* Asegura que no haya borde visible */
+}
+
+.project-card img {
+    height: 250px;
+    width: 100%;
+    object-fit: cover; /* Ajusta la imagen sin deformarla */
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    filter: grayscale(0.4);
+    transition: filter 0.3s ease;
+}
+
+.project-card:hover img {
+    filter: grayscale(0);
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.card-body {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 0 0 15px 15px;
+    padding: 20px;
+}
+
+.card-title {
+    color: #333;
+    font-size: 1.4em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    color: #555;
+    font-size: 1em;
+    line-height: 1.4;
+    margin-bottom: 10px;
+}
+
+.card-title, .card-text {
+    transition: color 0.3s ease;
+}
+
+.project-card:hover .card-title, .project-card:hover .card-text {
+    color: #ff4b5c;
+}
