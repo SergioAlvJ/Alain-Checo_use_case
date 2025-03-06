@@ -1,9 +1,8 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import PerfilSelector from "./Perfil_Selector/PerfilSelector";
-import ChecoProfile from './Perfil_Selector/Checo/app'; 
-import AlainProfile from './Perfil_Selector/Alain/app'; 
-
+import ChecoProfile from "./Perfil_Selector/Checo/Checo_app";
+import AlainProfile from "./Perfil_Selector/Alain/Alain_app";
 
 function App() {
   return (
@@ -18,4 +17,3 @@ function App() {
 }
 
 export default App;
-
